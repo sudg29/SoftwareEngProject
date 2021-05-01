@@ -12,9 +12,11 @@ G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\bin\Deb
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\bin\Debug\SoftwareEngProject.exe
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\bin\Debug\SoftwareEngProject.pdb
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csprojAssemblyReference.cache
-G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.Form1.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.Properties.Resources.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csproj.GenerateResource.cache
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csproj.CoreCompileInputs.cache
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.exe
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.pdb
+G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.feedback_page.resources
+G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.main_page.resources
+G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.login_page.resources
