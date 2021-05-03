@@ -104,7 +104,7 @@ namespace SoftwareEngProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1578, 1276);
+            this.ClientSize = new System.Drawing.Size(1578, 611);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);

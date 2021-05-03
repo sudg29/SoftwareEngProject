@@ -16,6 +16,9 @@ namespace SoftwareEngProject
         public main_page()
         {
             InitializeComponent();
+            timer1.Start();
+            label5.Text = DateTime.Now.ToLongTimeString();
+            label6.Text = DateTime.Now.ToLongDateString();
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
@@ -64,6 +67,13 @@ namespace SoftwareEngProject
             this.Hide();
             feedback_page currentUser = new feedback_page();
             currentUser.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label5.Text = DateTime.Now.ToLongTimeString();
+            label6.Text = DateTime.Now.ToLongDateString();
+            timer1.Start();
         }
     }
 }
