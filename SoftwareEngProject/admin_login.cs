@@ -28,5 +28,12 @@ namespace SoftwareEngProject
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            main_page currentUser = new main_page();
+            currentUser.Show();
+        }
     }
 }

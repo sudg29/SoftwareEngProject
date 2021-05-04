@@ -36,6 +36,7 @@ namespace SoftwareEngProject
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -100,11 +101,22 @@ namespace SoftwareEngProject
             this.label4.TabIndex = 6;
             this.label4.Text = "* For Admin members only";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 28);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(135, 45);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // admin_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1578, 611);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
@@ -128,5 +140,6 @@ namespace SoftwareEngProject
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
     }
 }
