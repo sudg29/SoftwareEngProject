@@ -134,7 +134,7 @@ namespace SoftwareEngProject
             // 
             this.button5.Location = new System.Drawing.Point(1373, 218);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(119, 44);
+            this.button5.Size = new System.Drawing.Size(119, 52);
             this.button5.TabIndex = 10;
             this.button5.Text = "Back";
             this.button5.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@ namespace SoftwareEngProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1782, 1336);
+            this.ClientSize = new System.Drawing.Size(1623, 1093);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
