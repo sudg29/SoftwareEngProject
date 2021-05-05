@@ -82,5 +82,10 @@ namespace SoftwareEngProject
             my_booking currentUser = new my_booking();
             currentUser.Show();
         }
+
+        private void main_page_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
