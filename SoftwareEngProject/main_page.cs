@@ -75,5 +75,12 @@ namespace SoftwareEngProject
             label6.Text = DateTime.Now.ToLongDateString();
             timer1.Start();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            my_booking currentUser = new my_booking();
+            currentUser.Show();
+        }
     }
 }

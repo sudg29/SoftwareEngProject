@@ -106,7 +106,7 @@ namespace SoftwareEngProject
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(127, 26);
+            this.label4.Location = new System.Drawing.Point(252, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(1110, 147);
             this.label4.TabIndex = 7;
@@ -132,7 +132,7 @@ namespace SoftwareEngProject
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(1373, 218);
+            this.button5.Location = new System.Drawing.Point(12, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(119, 52);
             this.button5.TabIndex = 10;

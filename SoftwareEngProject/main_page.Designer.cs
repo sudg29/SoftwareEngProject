@@ -50,11 +50,14 @@ namespace SoftwareEngProject
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -201,7 +204,7 @@ namespace SoftwareEngProject
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1794, 98);
+            this.pictureBox3.Location = new System.Drawing.Point(1777, 98);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(128, 75);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,9 +214,9 @@ namespace SoftwareEngProject
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Location = new System.Drawing.Point(1898, 98);
+            this.button2.Location = new System.Drawing.Point(1911, 98);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 75);
+            this.button2.Size = new System.Drawing.Size(396, 75);
             this.button2.TabIndex = 17;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
@@ -221,9 +224,9 @@ namespace SoftwareEngProject
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(2005, 1413);
+            this.button3.Location = new System.Drawing.Point(1911, 400);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(396, 66);
+            this.button3.Size = new System.Drawing.Size(396, 75);
             this.button3.TabIndex = 18;
             this.button3.Text = "Feedbacks and Complaints";
             this.button3.UseVisualStyleBackColor = true;
@@ -233,9 +236,9 @@ namespace SoftwareEngProject
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(1878, 1414);
+            this.pictureBox4.Location = new System.Drawing.Point(1777, 401);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(121, 65);
+            this.pictureBox4.Size = new System.Drawing.Size(128, 74);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 19;
             this.pictureBox4.TabStop = false;
@@ -263,12 +266,36 @@ namespace SoftwareEngProject
             this.label6.TabIndex = 21;
             this.label6.Text = "Date";
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.Location = new System.Drawing.Point(1911, 255);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(396, 75);
+            this.button4.TabIndex = 22;
+            this.button4.Text = "My Booking";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(1777, 255);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(128, 75);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 23;
+            this.pictureBox5.TabStop = false;
+            // 
             // main_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(2672, 1621);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox4);
@@ -295,6 +322,7 @@ namespace SoftwareEngProject
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,6 +349,8 @@ namespace SoftwareEngProject
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
 

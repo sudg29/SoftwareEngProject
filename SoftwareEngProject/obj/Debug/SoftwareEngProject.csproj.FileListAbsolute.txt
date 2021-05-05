@@ -21,3 +21,4 @@ G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Deb
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.main_page.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.login_page.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.admin_login.resources
+G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.my_booking.resources
