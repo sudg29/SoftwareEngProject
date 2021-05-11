@@ -52,8 +52,8 @@ namespace SoftwareEngProject
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -63,6 +63,7 @@ namespace SoftwareEngProject
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -74,6 +75,7 @@ namespace SoftwareEngProject
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -81,7 +83,7 @@ namespace SoftwareEngProject
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(440, 219);
+            this.label1.Location = new System.Drawing.Point(23, 1);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 83);
             this.label1.TabIndex = 1;
@@ -92,7 +94,7 @@ namespace SoftwareEngProject
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(946, 219);
+            this.label2.Location = new System.Drawing.Point(529, 1);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 72);
             this.label2.TabIndex = 2;
@@ -103,7 +105,7 @@ namespace SoftwareEngProject
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(573, 468);
+            this.label3.Location = new System.Drawing.Point(156, 250);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 83);
             this.label3.TabIndex = 6;
@@ -114,7 +116,7 @@ namespace SoftwareEngProject
             this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(975, 468);
+            this.pictureBox1.Location = new System.Drawing.Point(558, 250);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 79);
@@ -126,7 +128,7 @@ namespace SoftwareEngProject
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.monthCalendar1);
-            this.groupBox1.Location = new System.Drawing.Point(992, 566);
+            this.groupBox1.Location = new System.Drawing.Point(575, 348);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -148,7 +150,7 @@ namespace SoftwareEngProject
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(772, 495);
+            this.textBox1.Location = new System.Drawing.Point(355, 277);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(169, 38);
@@ -173,7 +175,7 @@ namespace SoftwareEngProject
             "Warsaw",
             "Krakow",
             "Rzeszow"});
-            this.comboBox1.Location = new System.Drawing.Point(432, 311);
+            this.comboBox1.Location = new System.Drawing.Point(15, 93);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(321, 39);
@@ -186,7 +188,7 @@ namespace SoftwareEngProject
             "Warsaw",
             "Krakow",
             "Rzeszow"});
-            this.comboBox2.Location = new System.Drawing.Point(942, 307);
+            this.comboBox2.Location = new System.Drawing.Point(525, 89);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(321, 39);
@@ -196,7 +198,7 @@ namespace SoftwareEngProject
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(815, 307);
+            this.pictureBox2.Location = new System.Drawing.Point(398, 89);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 50);
@@ -208,7 +210,7 @@ namespace SoftwareEngProject
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(1294, 300);
+            this.button1.Location = new System.Drawing.Point(877, 82);
             this.button1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(256, 50);
@@ -323,16 +325,6 @@ namespace SoftwareEngProject
             this.panel2.TabIndex = 23;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(409, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2828, 208);
-            this.panel3.TabIndex = 35;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -343,6 +335,16 @@ namespace SoftwareEngProject
             this.label12.Size = new System.Drawing.Size(188, 176);
             this.label12.TabIndex = 22;
             this.label12.Text = "Stark\r\nTickets\r\n";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(409, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(2828, 208);
+            this.panel3.TabIndex = 35;
             // 
             // pictureBox6
             // 
@@ -445,26 +447,34 @@ namespace SoftwareEngProject
             this.panel4.Size = new System.Drawing.Size(2828, 438);
             this.panel4.TabIndex = 36;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.pictureBox2);
+            this.panel5.Controls.Add(this.comboBox2);
+            this.panel5.Controls.Add(this.comboBox1);
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.groupBox1);
+            this.panel5.Controls.Add(this.pictureBox1);
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Location = new System.Drawing.Point(1067, 336);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1256, 879);
+            this.panel5.TabIndex = 37;
+            // 
             // main_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(3237, 2108);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "main_page";
             this.Text = "Form1";
@@ -485,6 +495,8 @@ namespace SoftwareEngProject
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -524,6 +536,7 @@ namespace SoftwareEngProject
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 
