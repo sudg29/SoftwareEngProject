@@ -87,5 +87,43 @@ namespace SoftwareEngProject
         {
 
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Form formBackground = new Form();
+            try
+            {
+                using (studentoffer uu = new studentoffer())
+                {
+                    formBackground.StartPosition = FormStartPosition.Manual;
+                    formBackground.FormBorderStyle = FormBorderStyle.None;
+                    formBackground.Opacity = .50d;
+                    formBackground.BackColor = Color.Black;
+                    formBackground.WindowState = FormWindowState.Maximized;
+                    formBackground.TopMost = true;
+                    formBackground.Location = this.Location;
+                    formBackground.ShowInTaskbar = false;
+                    formBackground.Show();
+
+                    uu.Owner = formBackground;
+                    uu.ShowDialog();
+
+                    formBackground.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                formBackground.Dispose();
+            }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
