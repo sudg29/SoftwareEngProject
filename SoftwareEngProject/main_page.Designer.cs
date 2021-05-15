@@ -83,7 +83,7 @@ namespace SoftwareEngProject
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(41, 2);
+            this.label1.Location = new System.Drawing.Point(95, 58);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(163, 83);
@@ -95,7 +95,7 @@ namespace SoftwareEngProject
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(940, 2);
+            this.label2.Location = new System.Drawing.Point(639, 69);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 72);
@@ -107,7 +107,7 @@ namespace SoftwareEngProject
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(277, 387);
+            this.label3.Location = new System.Drawing.Point(190, 262);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 83);
@@ -119,7 +119,7 @@ namespace SoftwareEngProject
             this.pictureBox1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(992, 387);
+            this.pictureBox1.Location = new System.Drawing.Point(436, 358);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 79);
@@ -131,7 +131,7 @@ namespace SoftwareEngProject
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.monthCalendar1);
-            this.groupBox1.Location = new System.Drawing.Point(1022, 539);
+            this.groupBox1.Location = new System.Drawing.Point(621, 278);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -153,7 +153,7 @@ namespace SoftwareEngProject
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(631, 429);
+            this.textBox1.Location = new System.Drawing.Point(390, 294);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(169, 38);
@@ -192,7 +192,7 @@ namespace SoftwareEngProject
             "Warsaw",
             "Krakow",
             "Rzeszow"});
-            this.comboBox2.Location = new System.Drawing.Point(933, 138);
+            this.comboBox2.Location = new System.Drawing.Point(579, 144);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(320, 39);
@@ -202,7 +202,7 @@ namespace SoftwareEngProject
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(708, 138);
+            this.pictureBox2.Location = new System.Drawing.Point(409, 138);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 50);
@@ -214,7 +214,7 @@ namespace SoftwareEngProject
             // 
             this.button1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(1559, 127);
+            this.button1.Location = new System.Drawing.Point(1007, 137);
             this.button1.Margin = new System.Windows.Forms.Padding(14, 11, 14, 11);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(256, 50);
@@ -482,10 +482,10 @@ namespace SoftwareEngProject
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Location = new System.Drawing.Point(1897, 521);
+            this.panel5.Location = new System.Drawing.Point(1096, 465);
             this.panel5.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(2233, 1362);
+            this.panel5.Size = new System.Drawing.Size(1397, 794);
             this.panel5.TabIndex = 37;
             // 
             // main_page
