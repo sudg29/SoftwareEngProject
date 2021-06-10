@@ -13,7 +13,7 @@ namespace SoftwareEngProject
 {
     public partial class login_page : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=software-project2021.database.windows.net;User ID=Margulan;Password=********;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=Flight;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         int count = 0;
 
         public static string SetValueForUser = "";

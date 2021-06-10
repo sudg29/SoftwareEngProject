@@ -23,3 +23,19 @@ G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Deb
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.admin_login.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.my_booking.resources
 G:\Sem 4\Software Eng\ProjectGitSE\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.studentoffer.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\bin\Debug\SoftwareEngProject.exe.config
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\bin\Debug\SoftwareEngProject.exe
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\bin\Debug\SoftwareEngProject.pdb
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csprojAssemblyReference.cache
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.admin_login.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.feedback_page.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.main_page.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.login_page.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.my_booking.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.Properties.Resources.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.studentoffer.resources
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csproj.GenerateResource.cache
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.csproj.CoreCompileInputs.cache
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.exe
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.pdb
+C:\Users\Меруерт\source\repos\SoftwareEngProject\SoftwareEngProject\obj\Debug\SoftwareEngProject.SearchResult.resources

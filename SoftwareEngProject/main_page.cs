@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,9 @@ namespace SoftwareEngProject
 {
     public partial class main_page : Form
     {
+
+         
+
         public main_page()
         {
             InitializeComponent();
@@ -41,7 +45,7 @@ namespace SoftwareEngProject
 
         private void monthCalendar1_DateChanged_1(object sender, DateRangeEventArgs e)
         {
-            textBox1.Text = monthCalendar1.SelectionStart.ToString();
+            textBox1.Text = monthCalendar1.SelectionStart.Date.ToString("MM/dd/yyyy");
 
         }
 
@@ -52,7 +56,41 @@ namespace SoftwareEngProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string con = @"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=Flight;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            var departure = comboBox1.Text;
+            var arrival = comboBox2.Text;
+            var dateDeparture = textBox1.Text;
 
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(con))
+                {
+                    this.Hide();
+                    string query = @"select * from FlightShedule where Departure='" + departure + "' AND Arrival='"+arrival+"' AND DateOfDeparture='"+ dateDeparture + "'";
+
+                    SqlCommand command = new SqlCommand(query, connection);
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+                    DataSet dataSet = new DataSet();
+
+                    adapter.Fill(dataSet);
+
+                    SearchResult result = new SearchResult();
+                    result.dataGridView1.ReadOnly = true;
+                    result.dataGridView1.DataSource = dataSet.Tables[0];
+                    result.Show();
+
+                    connection.Close();
+                }
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("Exception");
+            }
+
+
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -122,6 +160,11 @@ namespace SoftwareEngProject
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
