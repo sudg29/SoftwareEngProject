@@ -23,6 +23,15 @@ namespace SoftwareEngProject
             timer1.Start();
             label5.Text = DateTime.Now.ToLongTimeString();
             label6.Text = DateTime.Now.ToLongDateString();
+            label13.Text = "Please login";
+            if(login_page.SetValueForUser != null)
+            {
+                label13.Text = "Hi," + login_page.SetValueForUser;
+            }
+            else
+            {
+                label13.Text = "Please login";
+            }
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)

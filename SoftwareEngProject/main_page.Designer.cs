@@ -64,6 +64,7 @@ namespace SoftwareEngProject
             this.label11 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -162,7 +163,7 @@ namespace SoftwareEngProject
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Mistral", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(368, 12);
+            this.label4.Location = new System.Drawing.Point(490, 12);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(705, 171);
@@ -262,7 +263,7 @@ namespace SoftwareEngProject
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label5.Location = new System.Drawing.Point(0, 658);
+            this.label5.Location = new System.Drawing.Point(0, 610);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(39, 20);
@@ -274,7 +275,7 @@ namespace SoftwareEngProject
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label6.Location = new System.Drawing.Point(0, 638);
+            this.label6.Location = new System.Drawing.Point(0, 590);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(44, 20);
@@ -320,7 +321,7 @@ namespace SoftwareEngProject
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 678);
+            this.panel1.Size = new System.Drawing.Size(230, 630);
             this.panel1.TabIndex = 34;
             // 
             // panel2
@@ -354,7 +355,7 @@ namespace SoftwareEngProject
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(230, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1269, 208);
+            this.panel3.Size = new System.Drawing.Size(1513, 208);
             this.panel3.TabIndex = 35;
             // 
             // pictureBox6
@@ -461,10 +462,10 @@ namespace SoftwareEngProject
             this.panel4.Controls.Add(this.label9);
             this.panel4.Controls.Add(this.pictureBox8);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(230, 395);
+            this.panel4.Location = new System.Drawing.Point(230, 347);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1269, 283);
+            this.panel4.Size = new System.Drawing.Size(1513, 283);
             this.panel4.TabIndex = 36;
             // 
             // panel5
@@ -484,12 +485,22 @@ namespace SoftwareEngProject
             this.panel5.Size = new System.Drawing.Size(786, 512);
             this.panel5.TabIndex = 37;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(264, 226);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(60, 20);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "label13";
+            // 
             // main_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1499, 678);
+            this.ClientSize = new System.Drawing.Size(1743, 630);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
@@ -557,6 +568,7 @@ namespace SoftwareEngProject
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label13;
     }
 }
 

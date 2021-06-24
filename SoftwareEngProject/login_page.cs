@@ -16,7 +16,7 @@ namespace SoftwareEngProject
         SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=BookDB;Integrated Security=True");
         int count = 0;
 
-        public static string SetValueForUser = "";
+        public static string SetValueForUser = null;
         public login_page()
         {
             InitializeComponent();
@@ -55,8 +55,8 @@ namespace SoftwareEngProject
             {
                 this.Hide();
 
-                SetValueForUser = textBox2.Text;
-                after_login currentUser = new after_login();
+                SetValueForUser = textBox1.Text;
+                main_page currentUser = new main_page();
                 currentUser.Show();
             }
 
