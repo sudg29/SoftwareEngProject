@@ -13,7 +13,7 @@ namespace SoftwareEngProject
 {
     public partial class login_page : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=Flight;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=BookDB;Integrated Security=True");
         int count = 0;
 
         public static string SetValueForUser = "";
@@ -34,6 +34,10 @@ namespace SoftwareEngProject
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=BookDB;Integrated Security=True");
+            int count = 0;
+            con.Open();
+
             SqlCommand command = con.CreateCommand();
             command.CommandType = CommandType.Text;
             command.CommandText = "select * from Users where UserName='" + textBox1.Text + "' and Passwordd='" + textBox2.Text + "'";
@@ -63,6 +67,11 @@ namespace SoftwareEngProject
             this.Hide();
             main_page currentUser = new main_page();
             currentUser.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
