@@ -16,7 +16,9 @@ namespace SoftwareEngProject
     {
 
          
-
+        /// <summary>
+        /// Main page  of app.
+        /// </summary>
         public main_page()
         {
             InitializeComponent();
@@ -51,7 +53,11 @@ namespace SoftwareEngProject
                 textBox1.Text = null;
             }
         }
-
+        /// <summary>
+        /// Calendar to choose date of flight.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void monthCalendar1_DateChanged_1(object sender, DateRangeEventArgs e)
         {
             textBox1.Text = monthCalendar1.SelectionStart.Date.ToString("MM/dd/yyyy");
@@ -62,7 +68,11 @@ namespace SoftwareEngProject
         {
 
         }
-
+        /// <summary>
+        /// Implementation of search button with connection to SQL database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             string con = @"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=Flight;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";

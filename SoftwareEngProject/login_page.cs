@@ -11,6 +11,9 @@ using System.Data.SqlClient;
 
 namespace SoftwareEngProject
 {
+    /// <summary>
+    /// Login page for registered persons
+    /// </summary>
     public partial class login_page : Form
     {
         SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=BookDB;Integrated Security=True");
@@ -31,7 +34,11 @@ namespace SoftwareEngProject
             con.Open();
 
         }
-
+        /// <summary>
+        /// Login button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-BQ7U5BGD\SQLEXPRESS;Initial Catalog=BookDB;Integrated Security=True");
