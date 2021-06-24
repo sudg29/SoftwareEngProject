@@ -76,10 +76,17 @@ namespace SoftwareEngProject
 
                     adapter.Fill(dataSet);
 
-                    SearchResult result = new SearchResult();
-                    result.dataGridView1.ReadOnly = true;
-                    result.dataGridView1.DataSource = dataSet.Tables[0];
-                    result.Show();
+                    if (dataSet.Tables[0].Rows.Count != 0)
+                    {
+                        SearchResult result = new SearchResult();
+                        result.dataGridView1.ReadOnly = true;
+                        result.dataGridView1.DataSource = dataSet.Tables[0];
+                        result.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("There is no flights for this day.");
+                    }
 
                     connection.Close();
                 }
